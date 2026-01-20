@@ -1,0 +1,34 @@
+import time
+
+p1 = input("Roket fırlatılsın mı? ")
+
+if p1.lower() == "evet":
+    print("Tamamdır 3")
+    time.sleep(1)
+    print("2")
+    time.sleep(1)
+    print("1")
+    time.sleep(1)
+
+    p2 = input("0 ve fırlaaaaa! gacır gucur tak tak tak... "
+               "Eyvah, roket bozuk! Roketi tamir etmek ister misin? ")
+
+    if p2.lower() == "evet":
+        print("Tamam bakalım bi beş saniye bekle hemen temir ediyoruz")
+        time.sleep(5)
+        print("tamaam tamir ettik şimdi 3")
+        time.sleep(1)
+        print("2")
+        time.sleep(1)
+        print("1")
+        time.sleep(1)
+        print("veeeee 0 fırlaaaa ")
+        time.sleep(5)
+        print("şu anda roket atmosferde")
+        time.sleep(5)
+        print("Başardık sonunda başardık yaptığımız roket dünyada ilk uzaya çıkan roket oldu bu zafer hepimizindir")
+    else:
+        print("Tamam. o zaman biz de yeni bir roket üretelim")
+
+else:
+    print("Tamam o zaman başka zamana kaldı. Hadi bye")
