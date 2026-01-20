@@ -1,0 +1,6 @@
+p1 = input("Bir metin girin: ")
+
+if len(p1) > 10:
+    print(p1[:10] + "...")
+else:
+    print(p1)
